@@ -21,7 +21,9 @@ app.use(cors({
     Credentials: true,
 }))
 
-
+app.get("/",(req,res)=>{
+    res.redirect("/api/users");
+})
 // Routes
 app.use("/api/users",Userrouter);
 app.use("/api/tasks",Taskrouter);
