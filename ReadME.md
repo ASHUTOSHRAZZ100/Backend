@@ -13,11 +13,11 @@ NodeAPI is a simple and efficient API built using Node.js. This project demonstr
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/NodeAPI.git
+    git clone https://github.com/ASHUTOSHRAZZ100/Backend.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd NodeAPI
+    cd Backend
     ```
 3. Install dependencies:
     ```bash
