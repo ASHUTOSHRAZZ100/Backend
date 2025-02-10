@@ -1,7 +1,7 @@
 # NodeAPI Project
-
+[Website URL](https://backend-i0y4.onrender.com)
 ## Description
-NodeAPI is a simple and efficient API built using Node.js. This project demonstrates the creation of RESTful APIs with Node.js, Express, and MongoDB.
+NodeAPI is a simple and efficient API built using Node.js. This project demonstrates the creation of RESTful APIs with Node.js, Express, and MongoDB. It focuses solely on the backend, providing robust and scalable server-side functionality without any frontend components.
 
 ## Features
 - RESTful API endpoints
