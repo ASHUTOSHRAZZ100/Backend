@@ -46,8 +46,11 @@ export const register = async (req, res, next) => {
 export const login = async (req, res, next) => {
   try {
     const { email, password } = req.body;
-    
+    console.log(email)
+    console.log(password)
+    console.log("login")
     const user = await User.findOne({ email }).select("+password");
+    console.log("User -> ",user)
     if (!user) {
       return next(new ErrorHandler(404, "Invalid Email or Password"));
     }

@@ -6,8 +6,7 @@ export const sendCookie = (
   statusCode = 200,
   message = "message"
 ) => {
-  console.log(typeof(process.env.NODE_ENV));
-  console.log(process.env.NODE_ENV === "Development" );
+
   const token = jsonwebtoken.sign(
     { _id: user._id.toString() },
     process.env.JWT_SECRET
