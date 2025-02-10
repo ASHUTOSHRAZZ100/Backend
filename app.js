@@ -23,8 +23,8 @@ app.use(cors({
 
 
 // Routes
-app.use("/users",Userrouter);
-app.use("/task",Taskrouter);
+app.use("/api/users",Userrouter);
+app.use("/api/tasks",Taskrouter);
 
 app.use(errorMiddleware);
 
