@@ -15,11 +15,11 @@ dotenv.config({
 // Middleware
 app.use(express.json());
 app.use(cookieParser())
-app.use(cors({
-    origin:[process.env.FRONTEND_URL],
-    methods :["GET","POST","PUT","DELETE"],
-    Credentials: true,
-}))
+// app.use(cors({
+//     origin:[process.env.FRONTEND_URL],
+//     methods :["GET","POST","PUT","DELETE"],
+//     Credentials: true,
+// }))
 
 app.get("/",(req,res)=>{
     res.redirect("/api/users");
