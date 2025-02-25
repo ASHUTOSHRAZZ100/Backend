@@ -43,12 +43,5 @@ NodeAPI is a simple and efficient API built using Node.js. This project demonstr
 - `GET /api/tasks/my` - Retrieve tasks of the logged-in user
 - `PUT /api/tasks/:id` - Update a task by ID
 - `DELETE /api/tasks/:id` - Delete a task by ID
-
-## Contributing
-Contributions are welcome! Please fork the repository and create a pull request.
-
-## License
-This project is licensed under the MIT License.
-
 ## Contact
 For any inquiries, please contact [LinkedIn](https://www.linkedin.com/in/ashutoshraj100).
